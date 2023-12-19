@@ -3,6 +3,10 @@
 
 using namespace std;
 
+void test() {
+	cout << "Hello";
+}
+
 template<typename DataType>
 ExprTree<DataType>::ExprTree()
 {
